@@ -1,4 +1,8 @@
-//
-// Created by NAL on 17/08/2016.
-//
+#include <stdio.h>
 
+int exercicioquatro(){
+    float numero;
+    printf("\n DIGITE UM NUMERO\n");
+    scanf("%f",&numero);
+    printf("\n A TERCA PARTE E: %f \n", (numero/3));
+}
