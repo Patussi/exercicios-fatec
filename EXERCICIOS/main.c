@@ -6,34 +6,42 @@
 #include "cinco.c"
 #include "seis.c"
 #include "sete.c"
-
+#include "oito.c"
+#include "nove.c"
 
 int main (){
     int problema;
     printf("\n DIGITE O NUMERO DO EXERCICIO\n");
     scanf("%d",&problema);
 
-    if(problema ==01){
+    if(problema == 1){
         exercicioum();
     }
-    if(problema ==02){
+    if(problema == 2){
         exerciciodois();
     }
-    if(problema ==03){
+    if(problema == 3){
         exerciciotres();
     }
-    if(problema ==04){
+    if(problema == 4){
         exercicioquatro();
     }
-    if(problema ==05){
+    if(problema == 5){
         exerciciocinco();
     }
-    if(problema ==06){
+    if(problema == 6){
         exercicioseis();
     }
-    if(problema ==07){
+    if(problema == 7){
         exerciciosete();
     }
+    if(problema == 8){
+        exerciciooito();
+    }
+    if(problema == 9){
+        exercicionove();
+    }
+
 
     return 0;
 

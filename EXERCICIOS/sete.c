@@ -1,14 +1,13 @@
 #include <stdio.h>
 #include <math.h>
 
-int exerciciosete(){
-    double numero;
-    printf("\n ENTRE COM UM NUMERO\n");
-    scanf("%1f",&numero);
-    if (numero < 0){
-        printf(" O %1f AO QUADRADO E %1f \n", numero, pow(numero,2));
-    }
-    else{
-        printf(" \n A RAIZ DE %f E  %f \n", numero, sqrt(numero));
+int exerciciosete() {
+    double n;
+    printf("DIGITE UM NUMERO\n");
+    scanf("%lf", &n);
+    if (n < 0) {
+        printf("%lf^2 = %lf", n, pow(n, 2));
+    } else {
+        printf("sqrt(%lf) = %lf\n", n, sqrt(n));
     }
 }
