@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int exercicionove() {
+    int pri, seg;
+    printf("DIGITE O PRIMEIRO NUMERO\n");
+    scanf("%d", &pri);
+    printf("DIGITE O SEGUNDO NUMERO\n");
+    scanf("%d", &seg);
+
+
+}

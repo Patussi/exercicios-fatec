@@ -8,6 +8,9 @@
 #include "sete.c"
 #include "oito.c"
 #include "nove.c"
+#include "dez.c"
+#include "onze.c"
+
 
 int main (){
     int problema;
@@ -41,6 +44,13 @@ int main (){
     if(problema == 9){
         exercicionove();
     }
+    if(problema == 10){
+        exerciciodez();
+    }
+    if(problema == 11){
+        exercicioonze();
+    }
+
 
 
     return 0;
