@@ -10,6 +10,15 @@
 #include "nove.c"
 #include "dez.c"
 #include "onze.c"
+#include "doze.c"
+#include "treze.c"
+#include "catorze.c"
+#include "quinze.c"
+#include "dezesseis.c"
+#include "dezessete.c"
+#include "dezoito.c"
+#include "dezenove.c"
+
 
 
 int main (){
@@ -50,9 +59,30 @@ int main (){
     if(problema == 11){
         exercicioonze();
     }
-
-
-
+    if(problema == 12){
+        exerciciodoze();
+    }
+    if(problema == 13){
+        exerciciotreze();
+    }
+    if(problema == 14){
+        exerciciocatorze();
+    }
+    if(problema == 15){
+        exercicioquinze();
+    }
+    if(problema == 16){
+        exerciciodezesseis();
+    }
+    if(problema == 17){
+        exerciciodezessete();
+    }
+    if(problema == 18){
+        exerciciodezoito();
+    }
+    if(problema == 19){
+        exerciciodezenove();
+    }
     return 0;
 
 }
